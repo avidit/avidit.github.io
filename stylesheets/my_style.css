@@ -19,7 +19,7 @@ body  {
     text-align:center;
 }
 
-a {color:ghostwhite}
+a {text-decoration: none; color: ghostwhite; }
 a:link {text-decoration:none; color:ghostwhite}
 a:active {text-decoration:none; color:ghostwhite}
 a:hover {text-decoration:none; color:yellow}
@@ -27,3 +27,17 @@ a:hover {text-decoration:none; color:yellow}
 ol, ul {list-style: none;}
 
 #social {position:absolute; top:30%; right:50%}
+
+@font-face {
+    font-family: 'socicon';
+    src: url('../fonts/socicon.eot');
+    src: url('../fonts/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/socicon.woff') format('woff'),
+         url('../fonts/socicon.ttf') format('truetype'),
+         url('../fonts/socicon.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    text-transform: initial;
+}
+
+.socicon {font-family: 'socicon'; font-size:15px; text-decoration: none}
