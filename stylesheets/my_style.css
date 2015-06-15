@@ -10,13 +10,13 @@ output, ruby, section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
-body  {
-    background-color:black; 
-    text-decoration-color:ghostwhite; 
-    font-family:'Flamenco', cursive; 
-    font-size:20px; 
-    text-shadow:4px 4px 4px #ccc; 
-    text-align:center;
+body {
+    background-color: black;
+    text-decoration-color: ghostwhite;
+    font-family: 'Flamenco', cursive;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px ghostwhite;
+    text-align: center;
 }
 
 a {text-decoration: none; color: ghostwhite; }
@@ -24,9 +24,32 @@ a:link {text-decoration:none; color:ghostwhite}
 a:active {text-decoration:none; color:ghostwhite}
 a:hover {text-decoration:none; color:yellow}
 
-ol, ul {list-style: none;}
+a:link {
+    text-decoration: none;
+    color: ghostwhite;
+}
 
-#social {position:absolute; top:30%; right:50%}
+a:active {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#social_list {
+    width: auto;
+    display: table;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 @font-face {
     font-family: 'socicon';
@@ -40,4 +63,8 @@ ol, ul {list-style: none;}
     text-transform: initial;
 }
 
-.socicon {font-family: 'socicon'; font-size:15px; text-decoration: none}
+.socicon {
+    font-family: 'socicon', cursive;
+    font-size: 15px;
+    text-decoration: none;
+}
