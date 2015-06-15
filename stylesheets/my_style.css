@@ -11,18 +11,22 @@ output, ruby, section, summary, time, mark, audio, video {
 }
 
 body {
-    background-color: black;
     text-decoration-color: ghostwhite;
     font-family: 'Flamenco', cursive;
     font-size: 20px;
     text-shadow: 4px 4px 4px ghostwhite;
     text-align: center;
+    position: relative;
+    background-image: url("http://goo.gl/XjSNBZ");
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-a {text-decoration: none; color: ghostwhite; }
-a:link {text-decoration:none; color:ghostwhite}
-a:active {text-decoration:none; color:ghostwhite}
-a:hover {text-decoration:none; color:yellow}
+a, p {
+    text-decoration: none;
+    color: ghostwhite;
+}
 
 a:link {
     text-decoration: none;
@@ -34,9 +38,9 @@ a:active {
     color: ghostwhite;
 }
 
-a:hover {
+a:hover, p:hover {
     text-decoration: none;
-    color: yellow;
+    color: greenyellow;
 }
 
 ol, ul {
@@ -46,9 +50,21 @@ ol, ul {
 #social_list {
     width: auto;
     display: table;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
+}
+
+#i_am_here {
+    position: absolute;
+    top: 500px;
+    left: 700px;
+}
+
+#delaware {
+    position: absolute;
+    top: 100px;
+    right: 100px;
 }
 
 @font-face {
