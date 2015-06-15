@@ -15,7 +15,7 @@ body {
     text-decoration-color: ghostwhite;
     font-family: 'Flamenco', cursive;
     font-size: 20px;
-    text-shadow: 4px 4px 4px #ccc;
+    text-shadow: 4px 4px 4px ghostwhite;
     text-align: center;
 }
 
@@ -26,27 +26,29 @@ a {
 
 a:link {
     text-decoration: none;
-    color: ghostwhite
+    color: ghostwhite;
 }
 
 a:active {
     text-decoration: none;
-    color: ghostwhite
+    color: ghostwhite;
 }
 
 a:hover {
     text-decoration: none;
-    color: yellow
+    color: yellow;
 }
 
 ol, ul {
-    list-style: none
+    list-style: none;
 }
 
-#social {
-    position: absolute;
-    top: 30%;
-    right: 50%
+#social_list {
+    width: auto;
+    display: table;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @font-face {
@@ -58,11 +60,11 @@ ol, ul {
     url('../fonts/socicon.svg#sociconregular') format('svg');
     font-weight: normal;
     font-style: normal;
-    text-transform: initial
+    text-transform: initial;
 }
 
 .socicon {
     font-family: 'socicon', cursive;
     font-size: 15px;
-    text-decoration: none
+    text-decoration: none;
 }
