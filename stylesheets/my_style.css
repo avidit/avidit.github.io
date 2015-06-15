@@ -53,7 +53,10 @@ ol, ul {
 
 #map {
     position: relative;
-    background: no-repeat center bottom background-position : 640 px 640 px;
+    background: no-repeat fixed center bottom;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #i_am_here {
