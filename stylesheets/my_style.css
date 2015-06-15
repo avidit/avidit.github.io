@@ -11,12 +11,16 @@ output, ruby, section, summary, time, mark, audio, video {
 }
 
 body {
-    background-color: black;
     text-decoration-color: ghostwhite;
     font-family: 'Flamenco', cursive;
     font-size: 20px;
     text-shadow: 4px 4px 4px ghostwhite;
     text-align: center;
+    position: relative;
+    background-image: url("http://goo.gl/XjSNBZ");
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 a, p {
@@ -51,24 +55,16 @@ ol, ul {
     margin-left: auto;
 }
 
-#map {
-    position: relative;
-    background: no-repeat fixed center bottom;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 #i_am_here {
     position: absolute;
-    left: 250px;
-    top: 250px;
+    top: 500px;
+    left: 700px;
 }
 
 #delaware {
     position: absolute;
-    left: 400px;
     top: 100px;
+    right: 100px;
 }
 
 @font-face {
