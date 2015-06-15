@@ -19,7 +19,7 @@ body {
     text-align: center;
 }
 
-a {
+a, p {
     text-decoration: none;
     color: ghostwhite;
 }
@@ -34,9 +34,9 @@ a:active {
     color: ghostwhite;
 }
 
-a:hover {
+a:hover, p:hover {
     text-decoration: none;
-    color: yellow;
+    color: greenyellow;
 }
 
 ol, ul {
@@ -46,9 +46,26 @@ ol, ul {
 #social_list {
     width: auto;
     display: table;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
+}
+
+#map {
+    position: relative;
+    background: no-repeat center bottom background-position : 640 px 640 px;
+}
+
+#i_am_here {
+    position: absolute;
+    left: 250px;
+    top: 250px;
+}
+
+#delaware {
+    position: absolute;
+    left: 400px;
+    top: 100px;
 }
 
 @font-face {
