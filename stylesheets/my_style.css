@@ -17,10 +17,10 @@ body {
     text-shadow: 4px 4px 4px ghostwhite;
     text-align: center;
     position: relative;
-    background-image: url("http://goo.gl/XjSNBZ");
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background: url("http://goo.gl/XjSNBZ") no-repeat;
 }
 
 a, p {
