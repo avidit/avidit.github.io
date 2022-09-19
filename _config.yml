@@ -1,0 +1,16 @@
+title: Aabishkar KC
+email: aabishkar@gmail.com
+description: ""
+baseurl: ""
+url: ""
+github_username: avidit
+linkedin_username: aabishkarkc
+permalink: /:categories/:title
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:title
+theme: minima
+exclude:
+  - "*.rb"
+  - "*.json"

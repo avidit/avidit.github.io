@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1>
+      <a class="post-link" href="{{ page.repository_url | relative_url }}">
+        {{ page.title | escape }}
+      </a>
+    </h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

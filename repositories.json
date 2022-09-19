@@ -1,0 +1,34 @@
+[
+    {
+        "title": "resume",
+        "layout": "page"
+    },
+    {
+        "title": "pianobar-notifier"
+    },
+    {
+        "title": "batti-gayo"
+    },
+    {
+        "title": "newman-reporter-slack"
+    },
+    {
+        "title": "newman-reporter-testrail-extra"
+    },
+    {
+        "title": "cowsay-slack"
+    },
+    {
+        "title": "jira-slack"
+    },
+    {
+        "title": "slash-slack"
+    },
+    {
+        "title": "my-xbar-plugins"
+    },
+    {
+        "title": "life-calendar"
+    }
+]
+
